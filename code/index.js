@@ -137,7 +137,7 @@ const getdata =  async (event) => {
         alert("Please Enter City Name Properly")
     } else {
         try {
-            let url_1 = `http://api.openweathermap.org/data/2.5/weather?q=${city_val}&appid=5e0194c2899d068b43354f4c67db1980`
+            let url_1 = `https://api.openweathermap.org/data/2.5/weather?q=${city_val}&appid=5e0194c2899d068b43354f4c67db1980`
             let api_1 = await fetch(url_1)
             real_data_1 = await api_1.json()
             const current_city = "&nbsp " + real_data_1.name + "," + " " + real_data_1.sys.country
@@ -162,7 +162,7 @@ const getdata =  async (event) => {
                cond.innerHTML = `<i class="fas fa-sun fa-4x"></i>` ;
             }
             
-            let url_2 = `http://api.openweathermap.org/data/2.5/forecast?id=524901&q=${city_val}&appid=5e0194c2899d068b43354f4c67db1980`
+            let url_2 = `https://api.openweathermap.org/data/2.5/forecast?id=524901&q=${city_val}&appid=5e0194c2899d068b43354f4c67db1980`
             let api_2 = await fetch(url_2)
             real_data_2 = await api_2.json()
             temp_1 = real_data_2.list[15].main.temp
