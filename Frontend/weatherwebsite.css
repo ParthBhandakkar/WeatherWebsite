@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column  ;
+    font-family: 'Roboto Slab', serif;;
+}
+.content{
+    background-color: #1E202B ;
+    margin-top: -22px;
+}
+.navbar{
+    background-color:#1E202C ;
+}
+textarea{
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 60px;
+    margin-left: -85px;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 64px;
+    padding-top: 3px;
+    background-color: #009AD8;
+    color: white;
+    width: 73px;
+
+}
+.form-control{
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 60px;
+    border-radius: 20px;
+    background-color: #1E202C;
+}
+.current{
+    width: 20px;
+}
+.weather{
+    color: white;
+    display:flex ;
+    height: 235px;
+    margin-left: 150px;
+}
+#today{
+    width: 400px;
+    padding-left: 5px;
+}
+.otherdays{
+    display: flex;
+    width: 650px;
+}
+.grey{
+    background-color: #323544;
+}
+.black{
+    background-color: #262936;
+}
+.other{
+    width: 150px;
+    text-align: center;
+}
+
+#temperature{
+    font-weight: 900;
+    padding-left: 5px;
+    font-size: 70px;
+    display: inline;
+}
+#weather_condition{
+    display: inline;
+    /* font-size: 50px; */
+}
+
+#windspeed,#wind_dir, #pahar{
+    display: inline;
+}
+#weather_condition,.fas{
+    color: #20B1DA;
+}
+.clock{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+#time{
+    font-size: 80px;
+    color: whitesmoke;
+    margin-left: 60px;
+}
+.fa-clock{
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#feedback{
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#submit_feedback{
+    width: 502px;
+    height: 30px;
+    margin-left: 433px;
+    padding-top: 0px;
+}
+footer{
+    background-color:#323544 ;
+    margin-top: auto;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 7px;
+}
